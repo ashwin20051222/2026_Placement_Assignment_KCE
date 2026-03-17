@@ -1,0 +1,125 @@
+
+
+                       SYSTEM PROGRAMMING IN C
+                                  PART - A
+
+|Q.No|Question                                                   |K-Level  |
+|1   |Write a C program to create a playlist in an audio player  |K3 –     |
+|    |using linked list.                                         |Apply    |
+|2   |Write a C program to create a Congo line using linked list.|K3 –     |
+|    |                                                           |Apply    |
+|3   |Write a C program to implement scavenger hunt or treasure  |K3 –     |
+|    |hunt using linked list.                                    |Apply    |
+|4   |Write a C program to implement the elimination game        |K4 –     |
+|    |(Josephus problem) using linked list where every kth player|Analyze  |
+|    |is removed until one player remains.                       |         |
+|5   |Write a C program to implement the history list of file    |K3 –     |
+|    |directories and traverse to previous or next directory     |Apply    |
+|    |using linked list.                                         |         |
+|6   |Write a C program to implement hash tables using linked    |K4 –     |
+|    |list (chaining method).                                    |Analyze  |
+|7   |Write a C program to implement a tree to identify the car  |K4 –     |
+|    |manufacturer and car type by providing car name.           |Analyze  |
+|8   |Write a C program to implement a Graph using linked list   |K3 –     |
+|    |(Adjacency List representation).                           |Apply    |
+|9   |Write a C program to implement a Scheduler using linked    |K3 –     |
+|    |list.                                                      |Apply    |
+|10  |Write a C program to implement string reversal using stack.|K3 –     |
+|    |                                                           |Apply    |
+|11  |Write a C program to check balanced parentheses using      |K3 –     |
+|    |stack.                                                     |Apply    |
+|12  |Write a C program to implement undo operation using stack. |K3 –     |
+|    |                                                           |Apply    |
+|13  |Write a C program to implement token number announcement   |K3 –     |
+|    |system model for banks and hospitals using queue.          |Apply    |
+|14  |Write a C program to implement reservation or ticket       |K3 –     |
+|    |counter model using queue.                                 |Apply    |
+|15  |Write a C program to implement priority-based scheduling   |K4 –     |
+|    |using heap sort.                                           |Analyze  |
+
+
+                       SYSTEM PROGRAMMING IN C
+                                  PART – B
+                            OPERATING SYSTEMS
+
+
+|Q  |Practical Lab Question                                         |K-Level|
+|No |                                                               |       |
+|1  |Create two processes: one reads a thermostat sensor, the other |K2     |
+|   |controls a compressor motor. Use pipes for communication.      |       |
+|2  |Implement three processes: a state machine sends commands, one |K3     |
+|   |controls a motor, one controls a valve. Use pipes for command  |       |
+|   |transfer.                                                      |       |
+|3  |Develop three processes: image writer (JPG), video writer      |K3     |
+|   |(3GP), and display process.                                    |       |
+|4  |Create an application to read records via serial communication |K4     |
+|   |after handshaking, write them to a file, and sort the table.   |       |
+|5  |Build three processes: angle sensor reader, proximity sensor   |K3     |
+|   |reader, and motor controller via serial port. Use message      |       |
+|   |queues.                                                        |       |
+|6  |Design four processes: heater controller, light/door monitor,  |K4     |
+|   |fan/turntable controller, and thermostat reader. Use message   |       |
+|   |queues.                                                        |       |
+|7  |Create four processes: time reader, temperature reader,        |K3     |
+|   |humidity reader, and display process. Use shared memory.       |       |
+|8  |Implement three processes: pressure sensor reader, pump        |K4     |
+|   |controller, and calculator/display. Use message queues +       |       |
+|   |signals.                                                       |       |
+|9  |Build three processes: user input reader (rate/time),          |K3     |
+|   |calculator controlling pump, and pressure sensor reader. Use   |       |
+|   |message queues.                                                |       |
+|10 |Implement three processes: key input handler, audio player, and|K4     |
+|   |photo frame. Use message queues, interrupts, signals.          |       |
+|11 |Create three processes: user input handler, sequential motor   |K5     |
+|   |controller, and periodic calculator. Use semaphores, message   |       |
+|   |queues, signals, shared memory.                                |       |
+|12 |Implement multiple threads: runtime updater, charging tracker, |K5     |
+|   |battery usage tracker, sensor1 logger, sensor2 logger, event   |       |
+|   |log writer, and display thread. Use shared memory + mutex.     |       |
+|13 |Build an application to read a configuration file and execute  |K4     |
+|   |device cycles (pump, fluid, door, drain).                      |       |
+|14 |Create a file manager application in Linux to perform file     |K3     |
+|   |operations (create, delete, copy, move, search).               |       |
+|15 |Implement networking application to control home appliances:   |K6     |
+|   |one process receives server commands, another sends control    |       |
+|   |signals to devices.                                            |       |
+
+
+
+                       SYSTEM PROGRAMMING IN C
+                                  PART – C
+      Microcontroller Programming & Interfacing using STM32 Microcontroller
+
+
+|Q No|Practical Lab Question                                        |K-Level|
+|1   |Write an ARM Cortex-M assembly program to add two 32-bit      |K2     |
+|    |numbers and store the result in memory.                       |       |
+|2   |Implement an ARM Cortex-M assembly program to generate        |K3     |
+|    |Fibonacci series up to 10 terms and store them in RAM.        |       |
+|3   |Develop an ARM Cortex-M assembly program to toggle a GPIO pin |K3     |
+|    |using bit manipulation instructions.                          |       |
+|4   |Write an ARM Cortex-M assembly program to implement a delay   |K3     |
+|    |loop using registers and branch instructions.                 |       |
+|5   |Create an ARM Cortex-M assembly program to perform            |K4     |
+|    |multiplication and division of two numbers using registers.   |       |
+|6  |Interface an LED with ARM Cortex board and write a C program  |K2     |
+|   |to blink using GPIO.                                          |       |
+|7  |Interface a 16×2 LCD and display “HELLO WORLD” using GPIO in  |K3     |
+|   |4-bit mode.                                                   |       |
+|8  |Control a DC motor using ARM Cortex board and change direction|K3     |
+|   |(forward/reverse) via GPIO.                                   |       |
+|9  |Interface a 4×4 keypad and display pressed key value on LCD.  |K4     |
+|10 |Interface a relay to control an external lamp and toggle it   |K3     |
+|   |based on switch input.                                        |       |
+|11 |Interface a DHT11 sensor and display temperature and humidity |K4     |
+|   |values on LCD.                                                |       |
+|12 |Interface an I²C LCD and display sensor values received via   |K4     |
+|   |I²C communication.                                            |       |
+|13 |Write a program to generate a PWM signal using Timer to       |K4     |
+|   |control motor speed.                                          |       |
+|14 |Implement UART communication to send and receive characters   |K4     |
+|   |between two ARM Cortex boards.                                |       |
+|15 |Interface ADC read analog sensor input via ADC.               |K5     |
+
+
+
