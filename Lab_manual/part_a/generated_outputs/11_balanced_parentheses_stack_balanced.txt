@@ -1,4 +1,0 @@
-$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/11_balanced_parentheses_stack
-
-=== Balanced Parentheses Check using Stack ===
-Enter expression: Result: BALANCED
