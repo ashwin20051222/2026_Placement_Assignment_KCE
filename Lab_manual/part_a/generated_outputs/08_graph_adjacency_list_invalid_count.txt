@@ -1,0 +1,4 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/08_graph_adjacency_list
+
+=== Graph using Adjacency List ===
+Enter number of vertices: Invalid vertex count.

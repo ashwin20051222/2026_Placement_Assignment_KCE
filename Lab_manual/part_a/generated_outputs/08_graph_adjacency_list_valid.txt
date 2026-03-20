@@ -1,0 +1,13 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/08_graph_adjacency_list
+
+=== Graph using Adjacency List ===
+Enter number of vertices: Undirected graph? (1=yes / 0=no): Enter number of edges: Edge 1 (u v): Edge 2 (u v): Invalid vertices. Skipping.
+Edge 2 (u v): Edge 3 (u v): 
+--- Adjacency List ---
+Vertex 0: 1 
+Vertex 1: 2 0 
+Vertex 2: 1 
+Vertex 3: 4 
+Vertex 4: 3 
+Enter start vertex for BFS and DFS: BFS from 0: 0 1 2 
+DFS from 0: 0 1 2 

@@ -1,0 +1,70 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/14_ticket_counter_queue
+
+=== Ticket Counter Simulation (Queue) ===
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: 
+--- Waiting Queue ---
+(no one waiting)
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: No customers waiting.
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: Customer name       : Service time (min)  : Token #1 issued to Alice.
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: Customer name       : Service time (min)  : Token #2 issued to Bob.
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: 
+--- Waiting Queue ---
+Position 1: Token #1 - Alice           (service: 5 min, wait: ~0 min)
+Position 2: Token #2 - Bob             (service: 3 min, wait: ~5 min)
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: Serving Token #1 - Alice (service time: 5 min)
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: 
+--- Waiting Queue ---
+Position 1: Token #2 - Bob             (service: 3 min, wait: ~0 min)
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: Serving Token #2 - Bob (service time: 3 min)
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: No customers waiting.
+
+1. Customer arrives (join queue)
+2. Serve next customer
+3. Show queue
+0. Exit
+Enter choice: 

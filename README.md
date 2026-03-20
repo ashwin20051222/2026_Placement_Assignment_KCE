@@ -9,6 +9,11 @@ The codebase is organized as a collection of small, self-contained programs. Mos
 - `Ass_1_hw/`
   AVR/ATmega328P hardware-oriented programs written in C.
   Includes 35 assignment programs, 4 mini projects, a shared header, and a helper build script.
+- `Lab_manual/`
+  Lab-manual-based programs generated from `Lab_manual/Lab_Manual.doc`.
+  - `Lab_manual/part_a/`: 15 standalone C programs (linked list/stack/queue/tree/graph/heap).
+  - `Lab_manual/part_b/`: 15 standalone Linux IPC programs (pipes, message queues, shared memory, semaphores, threads, sockets).
+  - `Lab_manual/part_c/`: 15 STM32F103RB Keil examples (assembly + peripheral demos; not built with gcc).
 - `Ass_2_ds/`
   Data structures and algorithms programs written in standard C.
   Includes linked lists, stacks, queues, trees, hashing, sorting, binary search, file handling, and pthread-based examples.
@@ -113,6 +118,33 @@ Clean generated binaries:
 cd Ass_3_os
 make clean
 ```
+
+### 4. Lab Manual Programs (`Lab_manual`)
+
+Part A build:
+
+```bash
+cd Lab_manual/part_a
+mkdir -p bin
+for f in *.c; do gcc -std=c11 -Wall -Wextra -Wpedantic -O2 "$f" -o "bin/${f%.c}"; done
+```
+
+Part B build (Linux IPC; `-pthread` for thread/shared-mutex examples):
+
+```bash
+cd Lab_manual/part_b
+mkdir -p bin
+for f in *.c; do
+  if [ "$f" = "07_shared_memory_time_temp_humidity_display.c" ] || [ "$f" = "12_threads_shm_mutex_logger_display.c" ]; then
+    gcc -D_DEFAULT_SOURCE -std=c11 -Wall -Wextra -Wpedantic -O2 "$f" -o "bin/${f%.c}" -pthread
+  else
+    gcc -D_DEFAULT_SOURCE -std=c11 -Wall -Wextra -Wpedantic -O2 "$f" -o "bin/${f%.c}"
+  fi
+done
+```
+
+Part C (Keil / STM32F103RB):
+- See `Lab_manual/part_c/README_KEIL_PART_C.md`
 
 ## Program Style
 

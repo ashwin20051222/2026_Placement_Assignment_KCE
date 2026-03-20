@@ -1,0 +1,4 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/04_josephus_linked_list
+
+=== Josephus Problem (Circular Linked List) ===
+Enter number of players (n): Enter step count (k): n and k must be positive.

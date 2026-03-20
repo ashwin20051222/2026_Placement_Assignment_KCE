@@ -1,0 +1,66 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/07_car_lookup_tree_bst
+
+=== Car Lookup System (Binary Search Tree) ===
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: 
+--- All Cars (A to Z) ---
+  Name                 | Manufacturer         | Type
+  ---------------------+----------------------+-----
+  (no cars)
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name to search: Car not found.
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name     : Manufacturer : Type (SUV/Sedan/etc): Car saved.
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name     : Manufacturer : Type (SUV/Sedan/etc): Car saved.
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name     : Manufacturer : Type (SUV/Sedan/etc): Car saved.
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name to search: Found: Tesla Model Y | Tesla Inc | Crossover
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: Car name to search: Car not found.
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: 
+--- All Cars (A to Z) ---
+  Name                 | Manufacturer         | Type
+  ---------------------+----------------------+-----
+  Civic                | Honda                | Sedan
+  Tesla Model Y        | Tesla Inc            | Crossover
+
+1. Add / update car
+2. Search car by name
+3. Display all cars (sorted)
+0. Exit
+Enter choice: 

@@ -1,0 +1,64 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/15_priority_scheduling_heapsort
+
+=== Priority Scheduling using Heap Sort ===
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: 
+--- Process List ---
+(no processes)
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: No processes.
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: Process name  : Priority (1=highest): Burst time (ms): Process added.
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: Process name  : Priority (1=highest): Burst time (ms): Process added.
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: Process name  : Priority (1=highest): Burst time (ms): Process added.
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: 
+--- Process List ---
+  PID  Name             Priority  Burst
+  ---  ---------------  --------  -----
+    1  Render                  3     40 ms
+    2  Input                   1     20 ms
+    3  Save                    2     10 ms
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: 
+--- Priority Schedule (Heap Sort) ---
+t=  0 to t= 20 : PID 2 (Input) [priority=1]
+t= 20 to t= 30 : PID 3 (Save) [priority=2]
+t= 30 to t= 70 : PID 1 (Render) [priority=3]
+Total time: 70 ms
+
+1. Add process
+2. Show processes
+3. Run priority schedule
+0. Exit
+Enter choice: 

@@ -1,0 +1,4 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/10_string_reverse_stack
+
+=== String Reversal using Stack ===
+Enter string: Reversed   : serutcurtS ataD

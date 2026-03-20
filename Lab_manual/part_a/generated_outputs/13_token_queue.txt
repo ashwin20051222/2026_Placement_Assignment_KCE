@@ -1,0 +1,77 @@
+$ /home/silicondoc/Documents/Class\ file/Assignment/Lab_manual/part_a/bin/13_token_queue
+
+=== Token Queue (FIFO) ===
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: 
+--- Queue Contents ---
+(empty)
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: Queue is empty.
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: Enter sentence: Enqueued 3 tokens.
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: 
+--- Queue Contents ---
+ 1. hello
+ 2. world
+ 3. queue
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: Dequeued: "hello"
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: 
+--- Queue Contents ---
+ 1. world
+ 2. queue
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: Dequeuing all:
+  world
+  queue
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: Queue is empty.
+
+1. Tokenize and enqueue a sentence
+2. Dequeue one token
+3. Show queue
+4. Dequeue all tokens
+0. Exit
+Enter choice: 
